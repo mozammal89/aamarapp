@@ -20,5 +20,6 @@ class VerifyCsrfToken extends Middleware
      */
     protected $except = [
         //
-    ];
+
+        'recharge/success','recharge/fail','recharge/cancel'    ];
 }
